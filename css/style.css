@@ -1,0 +1,299 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    margin-bottom: 20px;
+}
+
+.navbar-nav .nav-link {
+    margin-right: 15px;
+    font-size: 1.1rem;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.container {
+    max-width: 1200px;
+}
+
+.carousel-item img {
+    border-radius: 10px;
+}
+
+.cover-img{
+ background: url(../img/cover.jpg) no-repeat center center/cover;
+ position: relative;
+  height: 150vh; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #3c555f;
+  
+}
+.all-img{
+    background: url(../img/Iphone_1.webp) no-repeat center center/cover;
+    position: relative;
+     height: 100vh; 
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+     color: #3c555f;
+     
+   }
+
+/* Product Details */
+.product-image img {
+    border-radius: 10px;
+}
+
+.card-body {
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.card-title {
+    font-size: 2rem;
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+.price {
+    color: #28a745;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+    border-radius: 50px;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+/* Specifications and Features */
+h3 {
+    font-size: 1.75rem;
+    color: #007bff;
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.list-group-item {
+    border: none;
+    border-bottom: 1px solid #e9ecef;
+}
+
+.list-group-item:last-child {
+    border-bottom: none;
+}
+/* Features Section */
+.feature-row {
+    display: flex;
+    align-items: center;
+}
+
+.feature-row img {
+    max-width: 100%;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.feature-row img:hover {
+    transform: scale(1.05);
+}
+
+.feature-text {
+    padding: 20px;
+}
+
+.feature-text h4 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.feature-text p {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+
+/* Comparison Table Styling */
+.comparison-table {
+    border-collapse: collapse;
+    width: 100%;
+    background-color: #f8f9fa;
+    font-size: 16px;
+}
+
+.comparison-table th,
+.comparison-table td {
+    padding: 15px;
+    text-align: center;
+}
+
+.comparison-table th {
+    background-color: #007bff;
+    color: white;
+    font-weight: bold;
+}
+
+.comparison-table td {
+    vertical-align: middle;
+}
+
+.comparison-table img {
+    max-width: 100px;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.comparison-table img:hover {
+    transform: scale(1.1);
+}
+
+.comparison-table .fw-bold {
+    font-weight: bold;
+    font-size: 1.1em;
+    color: #007bff;
+}
+
+/* Scrollable Container */
+.comparison-scroll {
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.comparison-scroll table {
+    min-width: 800px;
+}
+
+/* Footer */
+footer {
+    background-color: #343a40;
+    color: #f8f9fa;
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9rem;
+}
+
+footer a {
+    color: #f8f9fa;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #ffc107;
+}
+
+footer .social-icons a {
+    font-size: 1.5rem;
+    margin: 0 10px;
+}
+
+/* Support Section */
+.support-section {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    margin: 30px 0;
+}
+
+.support-section h2 {
+    font-size: 2rem;
+    color: #007bff;
+    margin-bottom: 20px;
+}
+
+.support-section .nav-tabs {
+    margin-bottom: 20px;
+}
+
+.support-section .nav-tabs .nav-item {
+    margin-right: 10px;
+}
+
+.support-section .nav-tabs .nav-link {
+    border-radius: 20px;
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 10px 20px;
+    font-size: 1.1rem;
+}
+
+.support-section .nav-tabs .nav-link.active {
+    background-color: #0056b3;
+}
+
+.support-section .tab-content {
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+}
+
+.support-section .tab-content h4 {
+    font-size: 1.5rem;
+    color: #007bff;
+    margin-bottom: 15px;
+}
+
+.support-section .tab-content p {
+    font-size: 1.1rem;
+    color: #333;
+    line-height: 1.6;
+}
+
+.support-section .btn-support {
+    background-color: #28a745;
+    border: none;
+    border-radius: 50px;
+    color: #ffffff;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+}
+
+.support-section .btn-support:hover {
+    background-color: #218838;
+}
+
+.support-section .faq-item {
+    margin-bottom: 15px;
+}
+
+.support-section .faq-question {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #007bff;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+
+.support-section .faq-answer {
+    font-size: 1.1rem;
+    color: #333;
+    display: none;
+    padding-left: 20px;
+}

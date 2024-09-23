@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smartphone Details</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Smartphone Hub</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#specifications">Specifications</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#company">About the Company</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#features">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#support">Support</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#reviews">Reviews</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#comparison">Comparison</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="container my-5">
+        <div class="row g-4">
+            <!-- Selected Phone Image Carousel -->
+            <div class="col-md-6">
+                <div id="phoneImageCarousel" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="./img/iphone15 front.jpg" class="d-block w-100" alt="Phone Front">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./img/iphone15 back.jpg" class="d-block w-100" alt="Phone Back">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./img/iphone15 side.jpg" class="d-block w-100" alt="Phone Side">
+                        </div>
+                        
+                        <!-- Add more images as needed -->
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#phoneImageCarousel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#phoneImageCarousel" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Selected Phone Details -->
+            <div class="col-md-6">
+                <div class="card-body bg-light p-4 rounded shadow">
+                    <h2 class="card-title text-primary">iPhone 15 Pro Max</h2>
+                    <p class="price display-6">₹1,40,999</p>
+                    <ul class="list-group list-group-flush mb-3">
+                        <li class="list-group-item">6.7-inch Display</li>
+                        <li class="list-group-item">Triple Camera Setup</li>
+                        <li class="list-group-item">Fast Charging</li>
+                        <li class="list-group-item">IP68 Water Resistance</li>
+                        <li class="list-group-item">256GB | 512GB | 1TB  Storage</li>
+                    </ul>
+                    <h5 class="mt-4 text-success">Offers</h5>
+                    <ul class="list-group list-group-flush mb-3">
+                        <li class="list-group-item">Up to 5000 cashback on select bank cards</li>
+                        <li class="list-group-item">No-cost EMI starting at 3000/month</li>
+                        <li class="list-group-item">Exchange offer: Get up to 10000 off on your old smartphone</li>
+                    </ul>
+
+                    <!-- Available Colors -->
+                    <h5 class="text-primary">Available Colors</h5>
+                    <div class="d-flex flex-wrap mb-3">
+                        <span class="badge bg-primary me-2 p-3">Deep Purple</span>
+                        <span class="badge bg-secondary me-2 p-3">Graphite</span>
+                        <span class="badge bg-warning text-dark me-2 p-3">Gold</span>
+                        <span class="badge bg-light text-dark me-2 p-3">Silver</span>
+                    </div>
+
+                    <a href="#" class="btn btn-primary btn-lg btn-block mb-3">Buy Now</a>
+                    <a href="#" class="btn btn-outline-primary btn-lg btn-block">View EMI Options</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+
+    <!-- Specifications Section -->
+    <section id="specifications" class="my-5">
+        <div class="container">
+            <h3 class="text-primary mb-4">Technical Specifications</h3>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">Dimensions: 15.2cm x 7.3cm x 0.8cm</li>
+                <li class="list-group-item">Weight: 182g</li>
+                <li class="list-group-item">Battery Capacity: 4422mAh</li>
+                <li class="list-group-item">Material: Glass and Metal</li>
+                <li class="list-group-item">Chip: A17 Pro chip, New 6‑core CPU with 2 performance and 4 efficiency cores, New 6‑core GPU, New 16‑core Neural Engine</li>
+                <li class="list-group-item">Camera: Pro 48MP camera system (Ultra Wide, Main, and Telephoto</li>
+                <li class="list-group-item">Front Camera: 12MP TrueDepth camera</li>
+                <li class="list-group-item">Face/Touch ID: Face Id</li>
+                <li class="list-group-item">Wireless Charging: Compatible with MagSafe accessories and Qi wireless chargers</li>
+            </ul>
+            <div class="all-img"></div>
+            <h3 class="text-primary mb-4">About this item</h3>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">FORGED IN TITANIUM — iPhone 15 Pro Max has a strong and light aerospace-grade titanium design with a textured matte-glass back. It also features a Ceramic Shield front that’s tougher than any smartphone glass. And it’s splash, water, and dust resistant.</li>
+                <li class="list-group-item">ADVANCED DISPLAY — The 6.7” Super Retina XDR display with ProMotion ramps up refresh rates to 120Hz when you need exceptional graphics performance. Dynamic Island bubbles up alerts and Live Notifications. Plus, with Always-On display, your Lock Screen stays glanceable, so you don’t have to tap it to stay in the know.</li>
+                <li class="list-group-item">GAME-CHANGING A17 PRO CHIP — A Pro-class GPU makes mobile games feel so immersive, with rich environments and realistic characters. A17 Pro is also incredibly efficient and helps to deliver amazing all-day battery life.</li>
+                <li class="list-group-item">POWERFUL PRO CAMERA SYSTEM — Get incredible framing flexibility with 7 pro lenses. Capture super high-resolution photos with more color and detail using the 48MP Main camera. And take sharper close-ups from farther away with the 5x Telephoto camera on iPhone 15 Pro Max.</li>
+                <li class="list-group-item">CUSTOMIZABLE ACTION BUTTON — Action button is a fast track to your favorite feature. Just set the one you want, like Silent mode, Camera, Voice Memo, Shortcut, and more. Then press and hold to launch the action.</li>
+            </ul>
+            <h3 class="text-primary mt-5 mb-4">What's in the Box</h3>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">iPhone 15 Pro Max</li>
+                <li class="list-group-item">Charger</li>
+                <li class="list-group-item">User Manual</li>
+            </ul>
+            
+        </div>
+    </section>
+
+    <div class="cover-img"></div>
+
+    <!-- About the Company Section -->
+    <section id="company" class="my-5 bg-light py-5">
+        <div class="container">
+            <h3 class="text-primary mb-4">About the Company</h3>
+            <p>Apple Inc. is a global technology leader, renowned for its innovation in consumer electronics, software, and services. Headquartered in Cupertino, California, Apple designs, manufactures, and sells smartphones, computers, tablets, wearables, and accessories, along with a wide range of software, services, and digital content.</p>
+
+        </div>
+    </section>
+
+
+    <!-- Features Section -->
+<section id="features" class="my-5">
+    <div class="container">
+        <h3 class="text-primary mb-4">Features</h3>
+
+        <!-- Feature 1: Image Right, Text Left -->
+        <div class="row feature-row mb-4">
+            <div class="col-md-6 d-flex align-items-center">
+                <div class="feature-text">
+                    <h4 class="text-primary">A17 Pro Chip</h4>
+                    <ul>
+                       <li>A monster win for gaming, It’s here, The biggest redesign in the history of Apple GPUs.</li>
+                       <li> New Pro A17 chip New 6-core CPU with 2 performance cores and 4 efficiency cores New 6-core GPU New Neural Engine with 16 cores</li>
+                        <li>Rated IP68 (maximum depth 6 meters up to 30 minutes) according to international standard IEC 60529.</li>
+                        <li>Natural titanium exterior coating</li>
+                        <li>New 6-core CPU with 2 performance cores and 4 efficiency cores</li>
+                        <li>New six-core GPU</li>
+                        <li>New neural engine with 16 cores</li>
+                    </ul>
+                   
+                </div>
+            </div>
+            <div class="col-md-6">
+                <img src="./img/a17.webp" class="img-fluid rounded shadow-sm" alt="A17 Pro Chip">
+            </div>
+        </div>
+
+        <!-- Feature 2: Image Left, Text Right -->
+        <div class="row feature-row mb-4 flex-md-row-reverse">
+            <div class="col-md-6 d-flex align-items-center">
+                <div class="feature-text">
+                    <h4 class="text-primary">Best graphics performanceby far</h4>
+                    <ul>
+                        <li>Mobile games will look and feel so immersive, with incredibly detailed environments and more realistic characters. And with industry-leading speed and efficiency, A17 Pro takes fast and runs with it.</li>
+                        <li>Video playback up to 29 hours</li>
+                         <li>Video playback (online) up to 25 hours</li>
+                         <li>Audio playback up to 95 hours</li>
+                         <li>USB-C port</li>
+                         <li>Face print</li>
+                     </ul>
+                   
+                </div>
+            </div>
+            <div class="col-md-6">
+                <img src="./img/Gaming_71.webp" class="img-fluid rounded shadow-sm" alt="ProMotion Display">
+            </div>
+        </div>
+
+        <!-- Feature 3: Image Right, Text Left -->
+        <div class="row feature-row mb-4">
+            <div class="col-md-6 d-flex align-items-center">
+                <div class="feature-text">
+                    <h4 class="text-primary">A camera that captures your wildest imagination</h4>
+                    <ul>
+                        <li>Main camera: 48MP</li>
+                        <li>Pro camera system (48MP main camera, 12MP ultra-wide camera, 12MP telephoto)</li>
+                         <li>Pro camera system</li>
+                         <li>48MP Main Camera: 24mm, ƒ/1.78 aperture, 2nd generation OIS, 100% Focus Pixels, Ultra HD support (24MP and 48MP)</li>
+                         <li>12MP Ultra Wide Camera: 13mm, ƒ/2.2, 120° FOV, 100% Focus Pixels</li>
+                         <li>12MP 2x Telephoto (using Quad Pixel sensor): 48mm, ƒ/1.78, 2nd generation OIS, 100% Focus Pixels</li>
+                         <li>3x 12MP telephoto: 77mm, ƒ/2.8 aperture, optical image stabilization</li>
+                         <li>3x optical zoom, 2x optical zoom; 6x optical zoom range</li>
+                         <li>Digital zoom up to 15x</li>
+                     </ul>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <img src="./img/Camera.webp" class="img-fluid rounded shadow-sm" alt="Improved Battery Life">
+            </div>
+        </div>
+
+         <!-- Feature 4: Image Left, Text Right -->
+         <div class="row feature-row mb-4 flex-md-row-reverse">
+            <div class="col-md-6 d-flex align-items-center">
+                <div class="feature-text">
+                    <h4 class="text-primary">IPhone, Forged in titanium</h4>
+                    <ul>
+                        <li>Titanium has one of the best strength-to-weight ratios of any metal, making these our lightest Pro models ever. You’ll notice the difference the moment you pick one up.</li>
+                     </ul>
+                   
+                </div>
+            </div>
+            <div class="col-md-6">
+                <img src="./img/Titanium.webp" class="img-fluid rounded shadow-sm" alt="ProMotion Display">
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Support Section -->
+    <div class="support-section">
+        <h3 class="text-primary mb-3">Support</h3>
+            <p>Need help with your new iPhone 15 Pro Max? Our customer support is here to assist you with any questions or issues you may have.</p>
+        <ul class="nav nav-tabs" id="supportTab" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link active" id="manual-tab" data-bs-toggle="tab" href="#manual" role="tab" aria-controls="manual" aria-selected="true">User Manual</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="faq-tab" data-bs-toggle="tab" href="#faq" role="tab" aria-controls="faq" aria-selected="false">FAQ</a>
+            </li>
+        </ul>
+        <div class="tab-content" id="supportTabContent">
+            <div class="tab-pane fade show active" id="manual" role="tabpanel" aria-labelledby="manual-tab">
+                <h4>Download User Manual</h4>
+                <p>Click below to download the user manual for detailed information about your device.</p>
+                <a href="https://images.ultfone.com/article/ios-17/iphone-user-guide.jpg?w=717&h=393" class="btn btn-support" target="_blank">Download Manual</a>
+            </div>
+            <div class="tab-pane fade" id="faq" role="tabpanel" aria-labelledby="faq-tab">
+                <h4>Frequently Asked Questions</h4>
+                <div class="faq-item">
+                    <div class="faq-question">How do I reset my phone?</div>
+                    <div class="faq-answer">To reset your phone, go to Settings > System > Reset options and select 'Erase all data'.</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">What is the warranty period?</div>
+                    <div class="faq-answer">The phone comes with a 1-year warranty covering manufacturing defects.</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">How can I contact customer support?</div>
+                    <div class="faq-answer">You can contact customer support via email at support@example.com or call us at 1-800-123-4567.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <!-- Reviews Section -->
+    <section id="reviews" class="my-5 bg-light py-5">
+        <div class="container">
+            <h3 class="text-primary mb-4">Customer Reviews</h3>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card review-card">
+                        <div class="card-body">
+                            <h5 class="card-title">Jane Doe</h5>
+                            <div class="display-6 text-warning me-3">★★★★☆</div>
+                            <p class="card-text">"The iPhone 15 Pro Max is an amazing upgrade. The camera quality is
+                                outstanding, and the performance is top-notch!"</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card review-card">
+                        <div class="card-body">
+                            <h5 class="card-title">John Smith</h5>
+                            <div class="display-6 text-warning me-3">★★★★☆</div>
+                            <p class="card-text">"The battery life has improved a lot compared to previous models. It
+                                easily lasts a full day of heavy usage."</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card review-card">
+                        <div class="card-body">
+                            <h5 class="card-title">Emily Johnson</h5>
+                            <div class="display-6 text-warning me-3">★★★★☆</div>
+                            <p class="card-text">"I love the new design and color options. The gold color looks premium,
+                                and the build quality is solid as always."</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Comparison section-->
+    <section id="comparison" class="my-5">
+        <div class="container">
+            <h3 class="text-primary mb-4">Compare with Other Phones</h3>
+            <div class="table-responsive">
+                <div class="comparison-scroll">
+                    <table class="table table-hover table-bordered comparison-table text-center">
+                        <thead class="bg-primary text-white">
+                            <tr>
+                                <th>Feature</th>
+                                <th>Phone 1</th>
+                                <th>Phone 2</th>
+                                <th>Phone 3</th>
+                                <!-- Add more columns for additional phones -->
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Image</td>
+                                <td><img src="./img/iphone15 pro.jpg" class="img-fluid rounded" alt="Phone 1"></td>
+                                <td><img src="./img/iphone15.jpg" class="img-fluid rounded" alt="Phone 2"></td>
+                                <td><img src="./img/iphone14.jpg" class="img-fluid rounded" alt="Phone 3"></td>
+                            </tr>
+                            <tr>
+                                <td>Name</td>
+                                <td class="fw-bold">iPhone 15 Pro</td>
+                                <td class="fw-bold">iPhone 15</td>
+                                <td class="fw-bold">iPhone 14</td>
+                            </tr>
+                            <tr>
+                                <td>Display</td>
+                                <td>6.1-inch</td>
+                                <td>6.1-inch</td>
+                                <td>6.1-inch</td>
+                            </tr>
+                            <tr>
+                                <td>Camera</td>
+                                <td>Triple Camera</td>
+                                <td>Dual Camera</td>
+                                <td>Dual Camera</td>
+                            </tr>
+                            <tr>
+                                <td>Charging</td>
+                                <td>Super Fast Charging</td>
+                                <td>Fast Charging</td>
+                                <td>Fast Charging</td>
+                            </tr>
+                            <tr>
+                                <td>Water Resistance</td>
+                                <td>IP68</td>
+                                <td>IP68</td>
+                                <td>IP67</td>
+                            </tr>
+                            <tr>
+                                <td>Storage</td>
+                                <td>256GB | 512GB | 1TB</td>
+                                <td>128GB | 256GB | 512GB</td>
+                                <td>128GB | 256GB |512GB</td>
+                            </tr>
+                            <tr>
+                                <td>Price</td>
+                                <td>₹1,37,600</td>
+                                <td>₹69,900</td>
+                                <td> ₹59,900</td>
+                            </tr>
+                            <tr>
+                                <td>Rating</td>
+                                <td class="text-warning">★★★★★(4.7/5)</td>
+                                <td class="text-warning">★★★★☆(4.4/5)</td>
+                                <td class="text-warning">★★★★☆ (4/5)</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+
+    
+
+    <!-- Footer -->
+    <footer class="bg-dark text-light py-4">
+        <div class="container text-center">
+            <p>&copy; 2024 Smartphone Hub. All rights reserved.</p>
+            <p>
+                <a href="mailto:support@smartphone.com" class="text-light">Contact Us</a> |
+                <a href="#" class="text-light">Privacy Policy</a> |
+                <a href="#" class="text-light">Terms of Service</a>
+            </p>
+            <div class="mt-3">
+                <a href="#" class="text-light me-3"><i class="bi bi-facebook"></i></a>
+                <a href="#" class="text-light me-3"><i class="bi bi-twitter"></i></a>
+                <a href="#" class="text-light me-3"><i class="bi bi-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+    <script src="scripts.js"></script>
+</body>
+
+</html>
